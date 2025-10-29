@@ -49,10 +49,46 @@ header.hero {
   gap: 1.5rem;
 }
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 4px;
+  border-radius: 0.75rem;
+}
+
+.brand-logo {
+  width: clamp(52px, 8vw, 76px);
+  height: auto;
+  filter: drop-shadow(0 14px 32px rgba(0, 0, 0, 0.35));
+}
+
 .logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.logo-primary {
   font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
+  font-size: 1rem;
+  letter-spacing: 0.22em;
+  color: var(--white);
+}
+
+.logo-tagline {
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.42em;
+  color: rgba(255, 255, 255, 0.68);
 }
 
 .nav-links {
