@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-labelledby="title desc">
+  <title id="title">ETL GIS Consulting LLC logo</title>
+  <desc id="desc">Stylized blue globe with green connection points, a sweeping arrow, and the company name.</desc>
+  <defs>
+    <radialGradient id="globeGradient" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#33e0d3" stop-opacity="0.8" />
+      <stop offset="0.45" stop-color="#1d9ad8" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#0b3065" />
+    </radialGradient>
+    <linearGradient id="arrowGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58e0ff" />
+      <stop offset="1" stop-color="#0074ff" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#002b4c" />
+      <stop offset="1" stop-color="#0c1c34" />
+    </linearGradient>
+    <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1fb3a6" />
+      <stop offset="1" stop-color="#14d4c7" />
+    </linearGradient>
+    <clipPath id="globeClip">
+      <circle cx="260" cy="220" r="170" />
+    </clipPath>
+  </defs>
+  <g transform="translate(0, 10)">
+    <circle cx="260" cy="220" r="170" fill="url(#globeGradient)" />
+    <g clip-path="url(#globeClip)" stroke="#5ebcff" stroke-opacity="0.45" stroke-width="4">
+      <ellipse cx="260" cy="220" rx="150" ry="85" fill="none" />
+      <ellipse cx="260" cy="220" rx="120" ry="160" fill="none" transform="rotate(18 260 220)" />
+      <ellipse cx="260" cy="220" rx="120" ry="160" fill="none" transform="rotate(-18 260 220)" />
+      <path d="M140 220h240" />
+      <path d="M260 100v240" />
+    </g>
+    <g fill="#6dffe6" stroke="#153758" stroke-width="6">
+      <circle cx="176" cy="168" r="14" />
+      <circle cx="330" cy="160" r="14" />
+      <circle cx="210" cy="290" r="14" />
+      <circle cx="356" cy="280" r="14" />
+    </g>
+    <path d="M176 328c50 48 154 86 210-34" fill="none" stroke="url(#arrowGradient)" stroke-width="28" stroke-linecap="round" />
+    <path d="M392 267l50 16-28 44z" fill="url(#arrowGradient)" />
+    <g fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="8" stroke-linecap="round">
+      <path d="M130 125c18-28 48-52 86-66" />
+      <path d="M400 122c-6-24-20-46-36-62" />
+    </g>
+  </g>
+  <g transform="translate(70, 440)" fill="url(#textGradient)">
+    <text font-family="'Inter', 'Segoe UI', sans-serif" font-size="88" font-weight="700" letter-spacing="0.14em">
+      ETL GIS
+    </text>
+  </g>
+  <g transform="translate(120, 510)" fill="url(#taglineGradient)">
+    <text font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" letter-spacing="0.6em">
+      CONSULTING LLC
+    </text>
+  </g>
+</svg>
